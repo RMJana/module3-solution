@@ -1,0 +1,54 @@
+body{
+	font-size: 16px;
+	color:  #0D2B6A;
+  	background-color: #89A6E3;
+  	font-family:  Verdana, Geneva, sans-serif;
+  	min-height: 1000px;
+}
+
+#header-nav{
+	background-color: #DCE3EE;
+	border-radius: 0;
+	border: 0;
+	min-height: 100px;
+}
+
+.navbar-brand h1{
+	font-size: 3em;
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+
+}
+.category-content-chicken, .category-content-beef, .category-content-sushi{
+	background-color: #DCE3EE;
+	margin: 15px 0 0 0;
+	padding: 20px; 
+}
+#navbar-menu hr{
+	margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+
+}
+@media (max-width: 767px) {
+ .navbar-header{
+ 	min-height: 100px;
+ }
+
+}
+@media (max-width: 479px){
+ .navbar-header{
+ 	min-height: 120px;
+ }
+ .navbar-brand h1{
+	font-size: 2.5em;
+}
+
+}
+
+
